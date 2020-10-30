@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="main.js" async></script>
+  <title>Guess Door</title>
+</head>
+
+<body>
+  <header class="flex-center">
+    <h1>Welcome To Guess-Door!</h1>
+  </header>
+  <main>
+    <section id="inst-row" class="flex-center">
+      <div class="inst-wrapper">
+        <h2>Instructions</h2>
+        <ul>
+          <li>Hiding behind one of these doors is a Bot.</li>
+          <li>Your mission is to open all of the doors without running into the Bot.</li>
+          <li>If you manage to avoid the Bot until the very last door, <span>you win!</span></li>
+          <li>See if you can beat the Bot!</li>
+        </ul>
+      </div>
+    </section>
+    <section id="door-row" class="flex-center">
+      <div class="door-wrapper flex-center">
+        <img id="door-one" src="assets/door.svg" alt="Door Image">
+        <img src="assets/door.svg" alt="Door Image">
+        <img src="assets/door.svg" alt="Door Image">
+        <img src="assets/door.svg" alt="Door Image">
+      </div>
+    </section>
+    <section class="flex-center">
+      <table>
+          <tr>
+            <th>Bot<br />Score</th>
+            <th>Your<br />Score</th>
+          </tr>
+          <tr>
+            <td id="bot-score">0</td>
+            <td id="your-score">0</td>
+          </tr>
+      </table>
+    </section>
+    <section class="flex-center">
+      <button class="play-again">Play Again!</button>
+    </section>
+  </main>
+
+  <footer class="flex-center">
+    <p>Built by Ladi</p>
+  </footer>
+</body>
+
+</html>
